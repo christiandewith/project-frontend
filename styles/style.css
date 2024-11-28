@@ -42,7 +42,7 @@ header {
 	flex-direction: column;
 }
 
-nav{
+header nav{
 	display: flex;
 	justify-content: center;
 	height: 55px;
@@ -60,10 +60,13 @@ ul {
 	margin: auto;
 }
 
-li{
+header li{
 	text-transform: uppercase;
 	color: white;
 	list-style: none;
+	border-left:2px solid rgb(255, 255, 255);
+	padding-left: 13px;
+
 }
 
 a {
@@ -83,6 +86,19 @@ picture img{
 
 
 /* main styling */
+
+section:first-of-type h2:first-of-type{
+	padding: 15px;
+	color: white;
+	background-color: #000000;
+	font-size: 16px;
+	border-radius: 60px;
+}
+
+div p{
+	border-left: 1px solid black;
+	padding-left: 30px;
+}
 
 section{
 	display: flex;
@@ -118,13 +134,5 @@ section h2{
 
 }
 
-div h2{
-	font-size: 1em;
-	padding: 10px;
-	padding-inline: 30px;
-	background-color: #000000;
-	color: white;
-	border-radius: 20px;
-	font-weight: 400;
-}
+
 
