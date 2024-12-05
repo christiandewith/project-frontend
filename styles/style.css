@@ -16,8 +16,6 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
-	--font-family: 'Helvetica';
 }
 
 
@@ -28,10 +26,17 @@
 /* JOUW STYLING */
 /****************/
 
+/* ALGEMENE CODE*/
+
+p {
+	line-height: 1.4em;
+}
+
 /* jouw code */
 body {
-	font-family: var(--font-family);
+	font-family:Helvetica, sans-serif;
 	margin: auto;
+	text-align: left;
 }
 
 
@@ -60,16 +65,21 @@ ul {
 	margin: auto;
 }
 
-header li{
+header nav li{
 	text-transform: uppercase;
 	color: white;
 	list-style: none;
-	border-left:2px solid rgb(255, 255, 255);
 	padding-left: 13px;
+}
+
+header nav li:nth-child(2),
+header nav li:nth-child(3),
+header nav li:nth-child(4){
+	border-left:2px solid rgb(255, 255, 255);
 
 }
 
-a {
+header a {
 	text-decoration: none;
 	color: white;
 	font-size: 0.75em;
@@ -81,8 +91,16 @@ picture img{
 	justify-content: center;
 	align-content: center;
 	height: 67vh;
-	width: 100%;
+	width: 100vw;
 }
+
+img{
+	width: 100vw;
+}
+
+
+
+
 
 
 /* main styling */
@@ -95,27 +113,52 @@ section:first-of-type h2:first-of-type{
 	border-radius: 60px;
 }
 
-div p{
-	border-left: 1px solid black;
-	padding-left: 30px;
-}
-
 section{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-inline: 30px;
 	padding-top: 40px;
 	padding-bottom:40px;
 }
 
-section:nth-of-type(2){
-	background-color: rgb(241, 236, 232);
+section p{
+	max-width: 90%;
 }
-section:nth-of-type(3){
-	background-color: rgb(241, 236, 232);
+
+section:nth-of-type(2), section:nth-of-type(3), section:nth-of-type(4), section:nth-of-type(5){
+	background-color: whitesmoke;
 }
+
+section:nth-of-type(2) a, section:nth-of-type(3) a{
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	padding-top: 0.8em;
+	padding-bottom: 0.6em;
+	padding-left: 3em;
+	padding-right: 3em;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: 600;
+	justify-self: left;
+}
+
+section:nth-of-type(2) > p:first-of-type, section:nth-of-type(3) > p:first-of-type{
+	font-weight: 600;
+	font-size: 1.3em;
+	text-transform: capitalize;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+section:nth-of-type(2) > p:nth-of-type(2), section:nth-of-type(3) > p:nth-of-type(2){
+	font-size: 1.3em;
+	margin-top: 0px;
+	text-transform: capitalize;
+
+}
+
 
 
 section:first-of-type button{
@@ -127,12 +170,153 @@ section:first-of-type button{
 	text-transform: capitalize;
 }
 
+section:nth-child(6){
+	align-items: flex-start;
+	padding-left: 20px;
+}
+
+section:nth-child(6) div{
+	display: flex;
+	align-items: center;
+}
+section:nth-child(6) div p{
+	font-size: 1.2em;
+	border-left:2px solid black;
+	padding-left: 5px;
+	margin-bottom: 0px;
+
+}
+
+section:nth-child(6) div h3{
+	padding-right: 5px;
+	margin-bottom: 0px;
+}
+
+section:nth-child(6) a{
+	color: black;
+}
+
+
 section h2{
 	font-size: 1.8em;
 	font-weight: 300;
 	text-transform: capitalize;
+}
+
+ main button:active{
+	color: white;
+	background-color: #000000;
+ }
+ 
+ #psection1{
+	border-left: 1px solid black;
+	padding-left: 30px;
+	padding-top: 0px;
+ }
+
+ .h2h3inline{
+	display: flex;
+	align-items: center;
+}
+
+.h2h3inline h2{
+	font-weight: 600;
+	padding-right: 10px;
+}
+.h2h3inline h3{
+	font-size: 1.8em;
+	font-weight: 300;
+	border-left: 3px solid black;
+	padding-left: 10px;
+	text-transform: capitalize;
+}
+
+article{
+	border: 1px solid black;
+	padding: 0;
+	width: 80vw;
+	height: 650px;
+	margin-bottom: 30px;
 
 }
 
+section:nth-last-of-type(3){
+	display: flex;
+}
 
+article img{
+	width: 100%;
+}
 
+article h3{
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+article p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article a{
+	color: black;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 1px solid black;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	justify-content: space-between;
+	height: 700px;
+}
+
+footer img{
+	width: 30vw;
+}
+
+footer h2{
+	text-transform: uppercase;
+	font-size: 1.6em;
+	font-weight: 500;
+}
+
+footer > a:first-of-type{
+	text-transform: capitalize;
+	font-weight: 600;
+	border:1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2em;
+}
+
+footer div p{
+	margin: 0px;
+}
+
+footer div p:first-of-type{
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+footer ul{
+	display: block;
+	list-style: none;
+	text-transform: capitalize;
+	padding: 0px;
+}
+
+footer ul a{
+	color: white;
+	text-decoration: none;
+}

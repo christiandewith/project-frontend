@@ -41,12 +41,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   Films
   https://arcteryx.com/ca/en/explore/films
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/arcteryx-films.jpg" width="375px" alt="Arc'teryx is een outdoor merk wat ook short films maakt om hun producten en brand image naar voren te brengen. ">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Academie
   https://arcteryxacademy.com/
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/arcteryx-academy-ss.jpg" width="375px" alt="Arc'teryx geeft courses met betrekking tot outdoor sporten en heeft hier een pagina voor.">
  
 </details>
 
@@ -60,6 +60,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  global code
+  - er word geen gebruik gemaakt van landmark tags zoals: nav en main. 
+  
+  keyboard
+  - 1 pagina heeft wel een goede focus stijl de ander heeft er geen. 
+  
+  images
+  - geen image heeft een alt attribute.
+  - geen text alternative voor complexe images.
+  - geen alt beschrijving voor image met text. 
+
+  headings
+  - zo goed als geen gebruik van headings.
+  - vaak p gebruik ipv. h2,h3. 
+
+  media
+  - gif en video's spelen automatisch af.
+  - media kan niet gepauzeerd worden.
+
+  video
+  - geen captions
+
+  audio
+  - transcript niet aanwezig. 
+
+
+
 </details>
 
 
@@ -70,10 +97,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Frame 1.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/Frame 2.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -92,6 +119,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Ik ben bezig geweest met de basis html van de academy pagina. 
+<img src="readme-images/week1.PNG" width="375px" alt="week 1 code arcteryx academy">
+
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -106,10 +137,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: img verkeerd gebruikt
+  - punt 2: headings kloppen niet helemaal. sommige h2 moeten opgesplitst in h2 en h3. 
+  - punt 3: div om sommige dingen naast elkaar te krijgen. 
+  - punt 4: Breakdownschets maken. 
 
 </details>
 
@@ -124,6 +155,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben bezig geweest met de css voor de arcteryx academy pagina. 
+  <img src="readme-images/week2.PNG" width="375px" alt="week 2 code arcteryx academy">
 
 
   ### Agenda voor meeting
@@ -139,10 +172,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - punt 1: gebruik actricle voor het "other events" deel.
+  - punt 2: plaatjes volle breedte
+  - punt 3: website is niet echt consistent met vormgeving.
+  - punt 4: button en a op de juiste manier gaan gebruiken. 
+  - punt 5: hero image veranderd bij bepaalde breedte.
+  - punt 6: onzichtbare h1.
 
 </details>
 
@@ -171,6 +206,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de acteryx academy pagina zo goed als af. 
+    <img src="readme-images/week3.PNG" width="375px" alt="week 3 code arcteryx academy">
+    <img src="readme-images/week3-2.PNG" width="375px" alt="week 3 code arcteryx academy">
+    <img src="readme-images/week3-3.PNG" width="375px" alt="week 3 code arcteryx academy">
+    <img src="readme-images/week3-4.PNG" width="375px" alt="week 3 code arcteryx academy">
+    <img src="readme-images/week3-5.PNG" width="375px" alt="week 3 code arcteryx academy">
+
 
 
   ### Agenda voor meeting
