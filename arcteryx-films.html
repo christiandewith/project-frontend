@@ -1,170 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="christian de with">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>arcteryx films</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="christian de with" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<body>
-<header>	
-	<nav>
-		<ul>
-            <li><a href="index.html">Arcteryx</a></li>  
-            <li><a href="">Outlet</a></li>    
-            <li><a href="">Veilance</a></li>    
-            <li><a href="">Regear</a></li>      
+    <title>arcteryx films</title>
+
+    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">arc'teryx</a></li>
+          <li><a href="">arc'teryx academy</a></li>
+          <li><a href="">community events</a></li>
+          <li><a href="">film tour</a></li>
         </ul>
-	</nav>
-    <div>
-        <p>gift guide:</p>
-        <a href=""></a>
-        <a href=""></a>
-        <p>free shipping &</p>
-        <a href=""></a>
-    </div>
-    <div>
-        <img src="" alt="">
+      </nav>
 
-        <input type="search">
-        <img src="" alt="">
-    </div>
-</header>
+      <div class="navbar">
+        <a href="#"
+          ><img
+            class="navbar-brand"
+            src="images\arcteryx-logo-footer.svg"
+            alt="HomePage"
+        /></a>
 
-<main>
-    <section>
-        <h1>Arc'teryx films</h1>
-            <article>
-                <h2>creation theory</h2>
-                <p>Journey to the west fjords of iceland to explore the parallels between sports, music and creativity.</p>
-                <a href=""> Watch Now</a>
-                <video></video>
-            </article>
-            <article>
-                <h2>balkan express</h2>
-                <p>Mountaineers like Max Kroneck and Jochen Mesle book a one-way trian from Munich to Thessaloniki then make their way home -- over 2,500km -- by bike and ski.</p>
-                <a href=""> Watch Now</a>
-                <video></video>
-            </article>
-            <article>
-                <h2>nexus</h2>
-                <p>Fixe distinct groups of skiers, five unique stories of transformative female female friendships built in the mountains.</p>
-                <a href=""> Watch Now</a>
-                <video></video>
-            </article>
-    </section>
+        <div class="dropdown">
+          <button class="dropbtn">
+            WOMEN
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">CLOTHING</a>
+            <a href="#">PACKS</a>
+            <a href="#">FOOTWEAR</a>
+          </div>
+        </div>
+        <input type="search" />
+      </div>
+    </header>
 
-    <section>
+    <main class="main-films">
+      <h1>Arc'teryx films</h1>
+      <section>
+
+        <!--Bron 3: chatgpt prompt: "how to make a carousel using code -->
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2>CREATION THEORY</h2>
+              <p>
+                Journey to the Westfjords of Iceland to explore the parallels
+                between sport, music, and creativity.
+              </p>
+              <video autoplay muted loop>
+                <source
+                  src="images/creation-theory-video.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div class="carousel-item">
+              <h2>BALKAN EXPRESS</h2>
+              <p>
+                Explore the mountains of the Balkans on a journey of discovery.
+              </p>
+              <video autoplay muted loop>
+                <source
+                  src="images/Balkan-express-video.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div class="carousel-item">
+              <h2>NEXUS</h2>
+              <p>A story of resilience and strength.</p>
+              <video autoplay muted loop>
+                <source src="images/nexus-video.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+        <!--einde bron 3 -->
+      </section>
+
+      <section>
         <h2>available to watch</h2>
         <ul>
-            <li>
-                <h3></h3>
-                <img src="" alt="">
-                <p></p>
-                <div>
-                    <p>available now</p>
-                    <a href=""> Watch Now</a>
-                </div>
-            </li>
-            <li>
-                <h3></h3>
-                <img src="" alt="">
-                <p></p>
-                <div>
-                    <p>available now</p>
-                    <a href=""> Watch Now</a>
-                </div>
-            </li>
-            <li>
-                <h3></h3>
-                <img src="" alt="">
-                <p></p>
-                <div>
-                    <p>available now</p>
-                    <a href=""> Watch Now</a>
-                </div>
-            </li>
+          <li>
+            <h3>THE PASS</h3>
+            <img src="images\the-pass.webp" alt="" />
+            <p>
+              One of the most complex avalanche control programs in the world,
+              the stakes are high in Rogers Pass and its storied terrain is only
+              accessible thanks to two women: the architect of the present-day
+              permit system, and her mentee at the helm of operations today.
+            </p>
+            <div>
+              <p>available now</p>
+              <a href="#"> Watch Now</a>
+            </div>
+          </li>
+          <li>
+            <h3>Lexicon</h3>
+            <img src="images\lexicon.webp" alt="" />
+            <p>
+              Skiers from six different countries travel to Japan to enjoy deep
+              powder. Along the way, they uncover the universal language of
+              skiing — a lexicon that emerges through the act of being present
+              and connected.
+            </p>
+            <div>
+              <p>available now</p>
+              <a href="#"> Watch Now</a>
+            </div>
+          </li>
+          <li>
+            <h3>Space Craft</h3>
+            <img src="images\space-craft.webp" alt="" />
+            <p>
+              Fly along with Sam Kuch and uncover the hidden parallels between
+              skiing and space travel. The weightlessness. The mesmerizing
+              wonder of realms shrouded in clouds and ice. The adventure.
+            </p>
+            <div>
+              <p>available now</p>
+              <a href="#"> Watch Now</a>
+            </div>
+          </li>
         </ul>
-    </section>
-   
-    <section>
+      </section>
+
+      <section>
         <h2>coming soon</h2>
         <ul>
-            <li>
-                <h3></h3>
-                <img src="" alt="">
-                <p></p>
-                <div>
-                    <p>available now</p>
-                    <a href=""> Watch the trailer</a>
-                </div>
-            </li>
-            <li>
-                <h3></h3>
-                <img src="" alt="">
-                <p></p>
-                <div>
-                    <p>available now</p>
-                    <a href=""> Watch the trailer</a>
-                </div>
-            </li>
-            <li>
-                <h3></h3>
-                <img src="" alt="">
-                <p></p>
-                <div>
-                    <p>available now</p>
-                    <a href=""> Watch the trailer</a>
-                </div>
-            </li>
+          <li>
+            <h3>Continuum</h3>
+            <img src="images\continuum.webp" alt="" />
+            <p>
+              From rubbish to shelter, a tent was assembled from 137
+              unrepairable jackets. Blossoming with kaleidoscopic colour, the
+              patchwork tent becomes the gathering place for six women who bring
+              it on a journey to ride big mountain lines deep in the Alaska
+              Range.
+            </p>
+            <div>
+              <p>available now</p>
+              <a href="#"> Watch the trailer</a>
+            </div>
+          </li>
+          <li>
+            <h3>Darkhorse</h3>
+            <img src="images\darkhorse.webp" alt="" />
+            <p>
+              A 44-year-old Pemberton local, Joe Lax has created a life defined
+              by snowboarding, family and wildfire fighting. Despite the
+              indelible mark he’s left on the mountains, you’ve likely never
+              heard of him. And he’s happy to keep it that way.
+            </p>
+            <div>
+              <p>available now</p>
+              <a href="#"> Watch the trailer</a>
+            </div>
+          </li>
+          <li>
+            <h3>Unlikely Duo</h3>
+            <img src="images\unlikely-duo.webp" alt="" />
+            <p>
+              Hailing from two ends of the ski spectrum, Eric Carter and Tom
+              Peiffer set out in search of rarely skied lines. The unlikely duo
+              quickly find strength in the other’s approach and success by
+              learning what drives the other.
+            </p>
+            <div>
+              <p>available now</p>
+              <a href="#"> Watch the trailer</a>
+            </div>
+          </li>
         </ul>
-    </section>
-    <p> animatie hier</p>
-    <section>
-        <div>
-            <img src="" alt="">
-            <a href="">find an arcteryx store</a>
-        </div>
-        <div>
-            <img src="" alt="">
-            <a href="">be the first to know</a>
-        </div>
-        <div>
-            <img src="" alt="">
-            <a href="">customer support centre</a>
-        </div>
-    </section>
-</main>
+      </section>
 
-<footer>
-	<img src="images\logo-footer.svg" alt="">
-	<img src="images\arcteryx-logo-footer.svg" alt="">
+      <details>
+        <summary>Explore</summary>
+        <a href="#">/ No Wasted Days</a>
+        <a href="#">/ Who We Are</a>
+        <a href="#">/ Blog</a>
+      </details>
+      <details>
+        <summary>Footwear</summary>
+        <a href="#">/ Men's Footwear</a>
+        <a href="#">/ Women's Footwear</a>
+        <a href="#">/ Footwear Innovation</a>
+      </details>
+    </main>
 
-	<h2>stay up to date</h2>
-	<p>Subscribe to receive emails on all our events including the Academy, new product releases, discount codes and more.</p>
-	<a>subscribe to the newsletter</a>
-	<div>
-		<p>follow us</p>
-		<p>#ArcteryxAcademy</p>
-	</div>
+    <footer>
+      <img src="images\logo-footer.svg" alt="" />
+      <img src="images\arcteryx-logo-footer.svg" alt="" />
 
-	<nav>
-		<ul>
-			<li><a href="#">cookies policy</a></li>
-			<li><a href="#">privacy policy</a></li>
-			<li><a href="#">terms & conditions</a></li>
+      <h2>stay up to date</h2>
+      <p>
+        Subscribe to receive emails on all our events including the Academy, new
+        product releases, discount codes and more.
+      </p>
+      <a>subscribe to the newsletter</a>
+      <div>
+        <p>follow us</p>
+        <p>#ArcteryxAcademy</p>
+      </div>
 
-		</ul>
-	</nav>
-	<p>Arc'teryx Academy 2024</p>
-</footer>
-	<script defer src="scripts/script.js"></script>
-</body>
-	
+      <nav>
+        <ul>
+          <li><a href="#">cookies policy</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">terms & conditions</a></li>
+        </ul>
+      </nav>
+      <p>Arc'teryx Academy 2024</p>
+    </footer>
+    <script defer src="scripts/script.js"></script>
+  </body>
 </html>

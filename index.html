@@ -1,166 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="christian de with">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>arcteryx academy</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="christian de with" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<body>
-<header>	
-	<nav>
-		<ul>
-			<li><a href="arcteryx-films.html">arc'teryx</a></li>
-			<li><a href="">arc'teryx academy</a></li>
-			<li><a href="">community events</a></li>
-			<li><a href="">film tour</a></li>
-		</ul>
-	</nav>
-	<picture>
-		<!--<h1>arc'teryx academy</h1> 
-		ONZICHTBAAR TOEVOEGEN-->
-		<img src="images\Hero-image-mobiel.gif" alt="">
-	</picture>
-</header>
+    <title>arcteryx academy</title>
 
-<main>
-	<section>
-		<h2>2025 winter lineup</h2>
-		<h2>upcoming academies</h2>
-		<button><strong>freeride |</strong> st.anton</button>
-		<button><strong>backcountry |</strong> mammoth</button>
-	
-	<div id="psection1">
-		<p>Arc'teryx Academies are the world’s premier mountain education events and a space for mountain enthusiasts of all levels to advance their skills through educational clinics.</p> 
-		<p>Held in world-class mountain towns, the Academies welcome thousands of guests from all over the world to connect with and learn from professional athletes and top certified guides. Join the community and immerse yourself in the mountain’s magic.</p>
-	</div>
-	</section>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  </head>
 
-	<section>
-	<div class="h2h3inline">
-		<h2>freeride</h2>
-		<h3>st.anton</h3>
-	</div>
-		<p>st.anton am arlberg, austria</p>
-		<p>february 6-9, 2025</p>
-			<img src="images\st.anton.jpg" alt="">
-		<p>clinic info date: october 15, 2024</p>
-		<p>clinic sales date: october 23, 2024</p>
-		<p>The Arc’teryx Freeride Academy returns to St. Anton am Arlberg. Over four days, Arc’teryx will welcome the freeride ski and snowboard community in a dream destination for mountain athletes of all abilities to learn new skills. The Academy’s educational framework lets skiers and snowboarders improve and elevate their skills alongside world-renowned athletes and professional mountain guides.</p>
-		<a href="#">learn more</a>
-	</section>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="arcteryx-films.html">arc'teryx</a></li>
+          <li><a href="#">arc'teryx academy</a></li>
+          <li><a href="#">community events</a></li>
+          <li><a href="#">film tour</a></li>
+        </ul>
+      </nav>
+	  <!-- bron 1: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+      <div class="navbar">
+        <a href="#"
+          ><img
+            class="navbar-brand"
+            src="images\arcteryx-logo-footer.svg"
+            alt="HomePage"
+        /></a>
 
-	<section>
-	<div class="h2h3inline">
-		<h2>backcountry</h2>
-		<h3>mammoth</h3>
-	</div>
-		<p>mammoth, california</p>
-		<p>march 7-9, 2025</p>
-			<img src="images\backcountry.jpg" alt="">
-		<p>clinic info date: november 19, 2024</p>
-		<p>clinic sales date: november 27, 2024</p>
-		<p>The Arc’teryx Freeride Academy returns to St. Anton am Arlberg. Over four days, Arc’teryx will welcome the freeride ski and snowboard community in a dream destination for mountain athletes of all abilities to learn new skills. The Academy’s educational framework lets skiers and snowboarders improve and elevate their skills alongside world-renowned athletes and professional mountain guides.</p>
-		<a href="#">learn more</a>
-	</section>
+        <div class="dropdown">
+          <button class="dropbtn">
+            WOMEN
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">CLOTHING</a>
+            <a href="#">PACKS</a>
+            <a href="#">FOOTWEAR</a>
+          </div>
+        </div>
+		<!--  eind bron 1 -->
+        <input type="search" />
+      </div>
+	  <!-- bron 2: https://www.a11yproject.com/posts/how-to-hide-content/-->
+      <h1 class="visually-hidden">arc'teryx academy</h1>
+	  <!--eind bron 2-->
+      <picture>
+        <source media="(min-width:650px)" srcset="images\Hero-image1.gif" />
 
-	<section>
-		<h2>other events</h2>
-		<article>
-			<h3>winter film tour</h3>
-				<img src="images\film-tour.jpg" alt="">
-			<p>Join us for this year’s Arc’teryx Winter Film Tour.</p>
-			<p>Conceived deep in the mountains and now travelling the world, our annual film tour features inspiring short films that celebrate uncommon journeys into the mountains. </p>
-			<a href="#">learn more</a>
-		</article>
-		<article>
-			<h3>alpine | chamonix</h3>
-				<img src="images\alpine-chamonix.jpg" alt="">
-			<p>The 13th edition of the Arc’teryx Alpine Academy returned to Chamonix-Mont-Blanc this Summer for four days packed with alpine education, inspiration, and community.</p>
-			<p>Check out the recap video on our website.</p>
-			<a href="">learn more</a>
-		</article>
-		<article>
-			<h3>climb | squamish</h3>
-				<img src="images\climb-squamish.jpg" alt="">
-			<p>The 2024 Arc’teryx Climb Academy has ended, and we want to extend our deepest thanks to the community for coming together and making these three days unforgettable. From clinics and educational seminars to Pavilion Park programming and our Academy Music Series, your participation made it all possible. We’ll do it again next year so stay in touch.</p>
-			<a href="">learn more</a>
-		</article>
-	</section>
+        <img src="images\Hero-image-mobiel.gif" alt="" />
+      </picture>
+    </header>
 
-	<section>
-		<h2>in support of mountain education</h2>
-			<img src="images\mountain-education.jpg" alt="">
-		<p>Arc’teryx Academies are a collection of educational events that let you grow your mountain skills and connect with the outdoor community. Through workshops and clinics, film premiers and music, the Academies are safe and supportive spaces to advance technical skills, boost confidence, and learn from the best in the world. Let's grow together and celebrate the magic of the mountains.</p>
-	</section>
+    <main>
+      <section>
+        <div id="top-section">
+          <h2>2025 winter lineup</h2>
+          <h2>upcoming academies</h2>
+          <button><strong>freeride |</strong> st.anton</button>
+          <button><strong>backcountry |</strong> mammoth</button>
+        </div>
+        <div id="psection1">
+          <p>
+            Arc'teryx Academies are the world’s premier mountain education
+            events and a space for mountain enthusiasts of all levels to advance
+            their skills through educational clinics.
+          </p>
+          <p>
+            Held in world-class mountain towns, the Academies welcome thousands
+            of guests from all over the world to connect with and learn from
+            professional athletes and top certified guides. Join the community
+            and immerse yourself in the mountain’s magic.
+          </p>
+        </div>
+      </section>
 
-	<section>
-		<h2>get in touch</h2>
-		<p>For inquiries regarding any of our Arc'teryx Academy events, contact us below. We will get back to you as soon as possible.</p>
-		<div>
-			<h3>Freeride</h3>
-			<p>St. Anton</p>
-		</div>
-		<a href="mailto:freerideacademy@arcteryx.com">freerideacademy@arcteryx.com</a>
+      <section>
+        <div class="h2h3inline">
+          <h2>freeride</h2>
+          <h3>st.anton</h3>
+        </div>
+        <p>st.anton am arlberg, austria</p>
+        <p>february 6-9, 2025</p>
+        <img src="images\st.anton.jpg" alt="" />
 
-		<div>
-			<h3>Backcountry</h3>
-			<p>Mammoth</p>
-		</div>
-		<a href="mailto:backcountryacademy@arcteryx.com">backcountryacademy@arcteryx.com</a>
-			
-		<div>
-			<h3>Alpine</h3>
-			<p>Chamonix</p>
-		</div>
-			<a href="mailto:alpineacademy@arcteryx.com">alpineacademy@arcteryx.com</a>
-		
-		<div>
-			<h3>Climb</h3>
-			<p>Lake District</p>
-		</div>
-			<a href="mailto:academylakedistrict@arcteryx.com">academylakedistrict@arcteryx.com</a>
-			
-		<div>
-			<h3>Climb</h3>
-			<p>Squamish</p>
-		</div>
-			<a href="mailto:climbingacademy@arcteryx.com">climbingacademy@arcteryx.com</a>
+        <p>
+          The Arc’teryx Freeride Academy returns to St. Anton am Arlberg. Over
+          four days, Arc’teryx will welcome the freeride ski and snowboard
+          community in a dream destination for mountain athletes of all
+          abilities to learn new skills. The Academy’s educational framework
+          lets skiers and snowboarders improve and elevate their skills
+          alongside world-renowned athletes and professional mountain guides.
+        </p>
+        <a href="#">learn more</a>
+      </section>
 
-		<img src="" alt="">
-	</section>
+      <section>
+        <div class="h2h3inline">
+          <h2>backcountry</h2>
+          <h3>mammoth</h3>
+        </div>
+        <p>mammoth, california</p>
+        <p>march 7-9, 2025</p>
+        <img src="images\backcountry.jpg" alt="" />
 
-</main>
+        <p>
+          The Arc’teryx Freeride Academy returns to St. Anton am Arlberg. Over
+          four days, Arc’teryx will welcome the freeride ski and snowboard
+          community in a dream destination for mountain athletes of all
+          abilities to learn new skills. The Academy’s educational framework
+          lets skiers and snowboarders improve and elevate their skills
+          alongside world-renowned athletes and professional mountain guides.
+        </p>
+        <a href="#">learn more</a>
+      </section>
 
-<footer>
-	<img src="images\logo-footer.svg" alt="">
-	<img src="images\arcteryx-logo-footer.svg" alt="">
+      <section>
+        <h2>other events</h2>
+        <article>
+          <h3>winter film tour</h3>
+          <img src="images\film-tour.jpg" alt="" />
+          <p>Join us for this year’s Arc’teryx Winter Film Tour.</p>
+          <p>
+            Conceived deep in the mountains and now travelling the world, our
+            annual film tour features inspiring short films that celebrate
+            uncommon journeys into the mountains.
+          </p>
+          <a href="#">learn more</a>
+        </article>
+        <article>
+          <h3>alpine | chamonix</h3>
+          <img src="images\alpine-chamonix.jpg" alt="" />
+          <p>
+            The 13th edition of the Arc’teryx Alpine Academy returned to
+            Chamonix-Mont-Blanc this Summer for four days packed with alpine
+            education, inspiration, and community.
+          </p>
+          <p>Check out the recap video on our website.</p>
+          <a href="">learn more</a>
+        </article>
+        <article>
+          <h3>climb | squamish</h3>
+          <img src="images\climb-squamish.jpg" alt="" />
+          <p>
+            The 2024 Arc’teryx Climb Academy has ended, and we want to extend
+            our deepest thanks to the community for coming together and making
+            these three days unforgettable. From clinics and educational
+            seminars to Pavilion Park programming and our Academy Music Series,
+            your participation made it all possible. We’ll do it again next year
+            so stay in touch.
+          </p>
+          <a href="">learn more</a>
+        </article>
+      </section>
 
-	<h2>stay up to date</h2>
-	<p>Subscribe to receive emails on all our events including the Academy, new product releases, discount codes and more.</p>
-	<a>subscribe to the newsletter</a>
-	<div>
-		<p>follow us</p>
-		<p>#ArcteryxAcademy</p>
-	</div>
+      <section>
+        <h2>in support of mountain education</h2>
+        <div>
+          <img src="images\mountain-education.jpg" alt="" />
+          <p>
+            Arc’teryx Academies are a collection of educational events that let
+            you grow your mountain skills and connect with the outdoor
+            community. Through workshops and clinics, film premiers and music,
+            the Academies are safe and supportive spaces to advance technical
+            skills, boost confidence, and learn from the best in the world.
+            Let's grow together and celebrate the magic of the mountains.
+          </p>
+        </div>
+      </section>
 
-	<nav>
-		<ul>
-			<li><a href="#">cookies policy</a></li>
-			<li><a href="#">privacy policy</a></li>
-			<li><a href="#">terms & conditions</a></li>
+      <section>
+        <h2>get in touch</h2>
+        <p>
+          For inquiries regarding any of our Arc'teryx Academy events, contact
+          us below. We will get back to you as soon as possible.
+        </p>
+        <div>
+          <h3>Freeride</h3>
+          <p>St. Anton</p>
+        </div>
+        <a href="mailto:freerideacademy@arcteryx.com"
+          >freerideacademy@arcteryx.com</a
+        >
 
-		</ul>
-	</nav>
-	<p>Arc'teryx Academy 2024</p>
-</footer>
-	<script defer src="scripts/script.js"></script>
-</body>
-	
+        <div>
+          <h3>Backcountry</h3>
+          <p>Mammoth</p>
+        </div>
+        <a href="mailto:backcountryacademy@arcteryx.com"
+          >backcountryacademy@arcteryx.com</a
+        >
+
+        <div>
+          <h3>Alpine</h3>
+          <p>Chamonix</p>
+        </div>
+        <a href="mailto:alpineacademy@arcteryx.com"
+          >alpineacademy@arcteryx.com</a
+        >
+
+        <div>
+          <h3>Climb</h3>
+          <p>Lake District</p>
+        </div>
+        <a href="mailto:academylakedistrict@arcteryx.com"
+          >academylakedistrict@arcteryx.com</a
+        >
+
+        <div>
+          <h3>Climb</h3>
+          <p>Squamish</p>
+        </div>
+        <a href="mailto:climbingacademy@arcteryx.com"
+          >climbingacademy@arcteryx.com</a
+        >
+
+        <img src="" alt="" />
+      </section>
+
+      <details>
+        <summary>Explore</summary>
+        <a href="#">/ No Wasted Days</a>
+        <a href="#">/ Who We Are</a>
+        <a href="#">/ Blog</a>
+      </details>
+      <details>
+        <summary>Footwear</summary>
+        <a href="#">/ Men's Footwear</a>
+        <a href="#">/ Women's Footwear</a>
+        <a href="#">/ Footwear Innovation</a>
+      </details>
+    </main>
+
+    <footer>
+      <img src="images\logo-footer.svg" alt="" />
+      <img src="images\arcteryx-logo-footer.svg" alt="" />
+
+      <h2>stay up to date</h2>
+      <p>
+        Subscribe to receive emails on all our events including the Academy, new
+        product releases, discount codes and more.
+      </p>
+      <a>subscribe to the newsletter</a>
+      <div>
+        <p>follow us</p>
+        <p>#ArcteryxAcademy</p>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">cookies policy</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">terms & conditions</a></li>
+        </ul>
+      </nav>
+      <p>Arc'teryx Academy 2024</p>
+    </footer>
+    <script defer src="scripts/script.js"></script>
+  </body>
 </html>

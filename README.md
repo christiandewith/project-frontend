@@ -228,9 +228,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - headers van beide paginas combineren
+  - footers van beide paginas combineren
+  - carousel in java
   - ...
 
 </details>
@@ -273,8 +273,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
+  1. bron 1: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp 
+  2. bron 2: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
   3. ...
 
 </details>
