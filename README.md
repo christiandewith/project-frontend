@@ -98,6 +98,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina: 
   <img src="readme-images/Frame 1.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Frame 3.jpg" width="375px" alt="breakdown van de hele pagina">
+
+
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/Frame 2.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -192,6 +195,41 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+    Lijst met je bevindingen die in de test naar voren kwamen:
+
+  global code
+  - er word geen gebruik gemaakt van landmark tags zoals: nav en main.
+  <strong>Dit heb ik verbeterd door deze wel te gebruiken<strong> 
+  
+  keyboard
+  - 1 pagina heeft wel een goede focus stijl de ander heeft er geen. 
+  
+  images
+  - geen image heeft een alt attribute.
+    <strong>Dit heb ik verbeterd door deze wel te gebruiken<strong> 
+
+  - geen text alternative voor complexe images.
+  - geen alt beschrijving voor image met text. 
+    <strong>Dit heb ik verbeterd door deze wel te gebruiken<strong> 
+
+
+  headings
+  - zo goed als geen gebruik van headings.
+    <strong>Dit heb ik verbeterd door deze wel te gebruiken<strong> 
+
+  - vaak p gebruik ipv. h2,h3. 
+    <strong>Dit heb ik verbeterd door deze wel te gebruiken<strong> 
+
+
+  media
+  - gif en video's spelen automatisch af.
+  - media kan niet gepauzeerd worden.
+
+  video
+  - geen captions
+
+  audio
+  - transcript niet aanwezig. 
 
 </details>
 
@@ -245,19 +283,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/week5.PNG" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb veel geleerd over code en over allemaal nieuwe functies waar ik eerder nog nooit van gehoord had. 
+  Zo ben ik meer te weten gekomen over flexbox en hoe je daarma kan werken om dingen naast elkaar over onder elkaar te zetten. of hoe je ze van plek wisselt met order. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ook heb veel geleerd over responsive. Hoe je website kan veranderen bij bijvoorbeeld een bepaalde breedte of dark mode. 
+  <img src="readme-images/week5-2.PNG" width="375px" alt="top">
+  <img src="readme-images/week5-3.PNG" width="375px" alt="top">
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik heb veel problemen gehad met het maken van een goed werkende carousel. zelf met gebruik van chatgpt en andere bronnen kreeg ik het maar niet voor elkaar. uiteindelijk werk hij redelijk alleen zijn de videos niet goed meegekrompen en zie je maar een deel. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/week5-4.PNG" width="375px" alt="bummer">
 </details>
 
 
@@ -275,6 +317,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. bron 1: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp 
   2. bron 2: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
-  3. ...
+  3. CAROUSEL Bron: chatgpt prompt: "how to make a carousel using code"
 
 </details>
